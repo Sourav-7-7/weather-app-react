@@ -1,0 +1,39 @@
+.app{
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input{
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+button{
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.weather-card{
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 4px 4px 50px rgb(237, 210, 5);
+  
+}
+li{
+  list-style: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+li:hover{
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  color: black;
+}
